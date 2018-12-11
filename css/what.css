@@ -1,0 +1,158 @@
+body{ 
+	background: #d6eaf8 ;
+	background-repeat: none;
+	margin:0;
+	font-family: 
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B3E5FC;
+	font-family: century gothic;
+	list-style:none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr)
+}
+ul.topnav li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 34px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+ul.topnav li a:hover:not(.active) {color: #0D47A1;}
+.logo {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+.show {
+	margin-bottom:0px;
+}
+.surf{
+	display: grid;
+	grid-gap: 10px;;
+	grid-template-columns: 2fr 1fr;
+	text-align: justify;
+	padding: 10px;
+	background: #0D5D5A;
+	margin: 0px 50px 0px 50px;
+	color: #985353;
+}
+
+.one{
+	background: #90caf9;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	color: #985353;
+	font-family: tw cen mt;
+}
+.two{
+	background: #90caf9;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;
+	color: #985353;
+	font-family: tw cen mt;
+}
+
+.one-text{
+	font-family: times new roman;
+	text-align: center;
+}
+.two-text{
+	font-family: times new roman;
+	text-align: center;
+}
+
+.article{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 2fr 1fr;
+	text-align: center;
+	padding: 10px;
+	background: #0D5D5A;
+	margin: 0px 50px 0px 50px;
+	color: #985353;
+}
+
+.six{
+	background: #90caf9;
+	padding: 10px;
+	margin: 10px;
+	color: #985353;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.seven{
+	background: #90caf9;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	color: #985353;
+	font-family: tw cen mt;
+}
+
+.six h3{
+	font-family: times new roman;
+	text-align: center;
+}
+.seven h3{
+	font-family: times new roman;
+	text-align: center;
+}
+.six p{
+	text-align: center;
+	font-family: tw cen mt;
+}
+
+.seven p{
+	text-align: justify;
+	font-family: tw cen mt;
+}
+
+.eight{
+	background: #90caf9;
+	padding: 10px;
+	margin: 10px;
+	color: #985353;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+}
+.arthree{
+	padding: 10px;
+	background: #0D5D5A;
+	margin: 0px 50px 0px 50px;
+}
+.arthree p {
+	text-align:justify;
+}
+.twoarticle{
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3,1fr);
+	text-align: center;
+	padding: 5px;
+	background: #0D5D5A;
+	margin: 0px 50px 10px 50px;
+	color: #985353;
+}
+
+/* Footer */
+.Footer{
+	background: #B3E5FC;
+	padding: 1px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: verdana;
+	color: #9b7565;
+}		

@@ -1,0 +1,144 @@
+body{ 
+	background: #d6eaf8 ;
+	background-repeat: none;
+	margin:0;
+	font-family: 
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B3E5FC;
+	font-family: century gothic;
+	list-style:none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr)
+}
+
+ul.topnav li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+ul.topnav li a:hover:not(.active) {color: #0D47A1;}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+.read {
+	color: #FCF3CF;
+	padding:4px 5px 4px 5px;
+	border: 10px;
+	border-color: #blue;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: tw cen mt;
+	text-decoration: none;
+}
+.read:hover {
+	color: red;
+	
+}
+/* Main Menu */
+.main-menu{
+	padding: 2px;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(4,1fr)
+}
+
+/* Showcase Section */
+
+.Showcase {
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 0px;
+}	
+
+/* Main Article */
+
+.main-article {
+	background: #0D5D5A;
+	padding: 10 px;
+	margin: 50px 50px 0px 50px;
+	text-align: center;
+	font-family: tw cen mt; 
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}	
+/*main article left*/
+.image{
+	padding: 5px;
+}
+.one{ 
+	margin: 10px;
+	padding: 5px;
+	background: #90caf9;
+	text-align: justify;
+	color: #985353;
+}
+.siargao {
+	font-family: times new roman;
+}
+
+.twoart {
+	background: #0D5D5A;
+	padding: 10 px;
+	margin: 0px 50px 10px 50px;
+	text-align: center;
+	font-family: tw cen mt; 
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3,1fr);
+}	
+/*main article left*/
+.two{ 
+	margin: 10px;
+	padding: 5px;
+	background: #90caf9;
+	text-align: justify;
+	color: #985353;
+}
+
+.three{ 
+	margin: 10px;
+	padding: 5px;
+	background: #90caf9;
+	text-align: center;
+	color: #985353;
+}
+
+.four{ 
+	margin: 10px;
+	padding: 5px;
+	background: #90caf9;
+	text-align: center;
+	color: #985353;
+}
+h2 {
+	font-family: times new roman;
+}
+/* Footer */
+.Footer{
+	background: #B3E5FC;
+	padding: 1px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: verdana;
+	color: #9b7565;
+}		
